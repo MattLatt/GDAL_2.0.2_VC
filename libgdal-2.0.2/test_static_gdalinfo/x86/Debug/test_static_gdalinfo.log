@@ -1,0 +1,17 @@
+﻿Build started 28/06/2016 09:43:31.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Debug\test_static_gdalinfo.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Debug\test_static_gdalinfo.exe.embed.manifest.res" K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Debug\test_static_gdalinfo_manifest.rc 
+         
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Debug\test_static_gdalinfo_manifest.rc(1): error RC2135: file not found: K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal2\test_static_gdalinfo\Debug\x86\test_static_gdalinfo.exe.embed.manifest
+         
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09
