@@ -18,10 +18,16 @@ Libexpat 2.10 and libsqlite 3.12 are provided in the "3rdpart" folder
 
 ## 2016-06-28: Warning this is a work in progress
 What have been tested:
+
     - x86 version of all the workspaces (dll, lib and tests) 
 
 What need to be done :
+
     - adding Proj.4 lib
+    
     - adding ECW driver
+    
     - building libexpat for x64 architecture to test x64 version of all the workspaces
+    
     - test if it's possible to use Unicode charset (instead of Multi-Byte)
+    
