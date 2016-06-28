@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="gdal2">
+</Property><Property Name="Solution File" Value="K:\Components\LibraryV2\GDAL\GDAL_2.x\gdal-2.0.2\gdal2.sln">
+</Property><Property Name="Date" Value="vendredi 20 mai 2016">
+</Property><Property Name="Time" Value="18:01:37">
+</Property></Properties><Event ErrorLevel="0" Project="gdal2" Source="gdal2.vcproj" Description="Converting project file 'K:\Components\LibraryV2\GDAL\GDAL_2.x\gdal-2.0.2\gdal2.vcproj'.">
+</Event><Event ErrorLevel="0" Project="gdal2" Source="gdal2.vcproj" Description="Done converting to new project file 'K:\Components\LibraryV2\GDAL\GDAL_2.x\gdal-2.0.2\gdal2.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="gdal2" Source="gdal2.vcproj" Description="Converted">
+</Event></UpgradeLog>
