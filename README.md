@@ -4,15 +4,16 @@ This repository contain Visual C++ 2010 workspace for th lib GDAL 2.0.2 (http://
 There is both dynamic (dll) and static workspaces (lib) of GDAL 2.0.2 with 3 test workspaces:
 
     * test_dynamic_gdalbuildvrt workspace:
-    this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a "windows console" workspace
-    dynamically linked to GDAL 2.0.2
+    this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a 
+    "windows console" workspace dynamically linked to GDAL 2.0.2
     
     * test_static_libgdal-2.0.2 workspace:
-    this is a simple console program that dump all the supported drivers (GDAL/OGR) with theire capabilities (i.e. Read/Write)
+    this is a simple console program that dump all the supported drivers (GDAL/OGR) with theire 
+    capabilities (i.e. Read/Write)
     
     * test_static_gdalinfo workspace:
-    this is the gdalinfo code provided by gdal (in the app folder of the source package) in a "windows console" workspace
-    statically linked to GDAL 2.0.2
+    this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
+    "windows console" workspace statically linked to GDAL 2.0.2
 
 Libexpat 2.10 and libsqlite 3.12 are provided in the "3rdpart" folder
 
