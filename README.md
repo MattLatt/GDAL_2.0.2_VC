@@ -1,5 +1,5 @@
 # GDAL_2.0.2_VC
-This repository contain a full Visual C++ 2010 worksopace for GDAL 2.0.2
+This repository contain Visual C++ 2010 workspace for th lib GDAL 2.0.2 (http://gdal.org)
 
 There is both dynamic (dll) and static workspaces (lib) of GDAL 2.0.2 with 3 test workspaces:
     - test_dynamic_gdalbuildvrt workspace: 
