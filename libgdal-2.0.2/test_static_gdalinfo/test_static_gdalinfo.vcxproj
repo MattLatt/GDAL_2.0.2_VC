@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{409B8345-4D77-4701-8335-83271D96EB69}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>libgdal2_test</RootNamespace>
+    <RootNamespace>test_static_gdalinfo</RootNamespace>
     <ProjectName>test_static_gdalinfo</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
