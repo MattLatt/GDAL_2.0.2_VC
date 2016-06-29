@@ -17,11 +17,14 @@ There is both dynamic (dll) and static workspaces (lib) of GDAL 2.0.2 with 3 tes
 
 Libexpat 2.10 and libsqlite 3.12 are provided in the "3rdpart" folder
 
-## 2016-06-28: Warning this is a work in progress
-What have been tested:
 
-    - x86 version of all the workspaces (dll, lib and tests) 
+## 2016-06-29: Warning this is a work in progress
 
+    - Added x64 version of all the workspaces (dll, lib and tests).
+	I've compiled the 3rd part library libexpat for x64 architecture excluding in UNICODE mode for now
+	/!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.0.2.lib (more than 650 MB),
+	so you will have to rebuild the static lib version.
+	
 What need to be done :
 
     - adding Proj.4 lib
@@ -31,4 +34,11 @@ What need to be done :
     - building libexpat for x64 architecture to test x64 version of all the workspaces
     
     - test if it's possible to use Unicode charset (instead of Multi-Byte)
-    
+   	
+	
+## 2016-06-28: 
+What is compiling :
+
+    - x86 version of all the workspaces (dll, lib and tests) 
+
+
