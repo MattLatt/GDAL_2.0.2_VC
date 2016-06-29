@@ -15,6 +15,11 @@ There is both dynamic (dll) and static workspaces (lib) of GDAL 2.0.2 with 3 tes
     this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
     "windows console" workspace statically linked to GDAL 2.0.2
 
+All the dll, lib and exe are copied by VC post-build steps in the .\libgdal-2.0.2\binaries folder.
+	
+/!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.0.2.lib (more than 650 MB),
+so you will have to rebuild the static lib version.
+	
 Libexpat 2.10 and libsqlite 3.12 are provided in the "3rdpart" folder
 
 
@@ -22,8 +27,7 @@ Libexpat 2.10 and libsqlite 3.12 are provided in the "3rdpart" folder
 
     - Added x64 version of all the workspaces (dll, lib and tests).
 	I've compiled the 3rd part library libexpat for x64 architecture excluding in UNICODE mode for now
-	/!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.0.2.lib (more than 650 MB),
-	so you will have to rebuild the static lib version.
+
 	
 What need to be done :
 
