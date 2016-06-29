@@ -1,27 +1,34 @@
 # GDAL_2.0.2_VC
-This repository contain Visual C++ 2010 workspace for th lib GDAL 2.0.2 (http://gdal.org)
+This repository contain Visual C++ 2010 workspace of the GDAL 2.0.2 library (http://gdal.org)
 
-There is both dynamic (dll) and static workspaces (lib) of GDAL 2.0.2 with 3 test workspaces:
+    * The Folder gdal-2.0.2 contain the gdal 2.0.2 source release (http://download.osgeo.org/gdal/2.0.2/gdal202.zip).
+	The file ./gdal-2.0.2/port/cpl_config.h.vc has been renamed to ./gdal-2.0.2/port/cpl_config.h in order to
+	compile with MS visual C++.
 
-    * test_dynamic_gdalbuildvrt workspace:
-    this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a 
-    "windows console" workspace dynamically linked to GDAL 2.0.2
-    
-    * test_static_libgdal-2.0.2 workspace:
-    this is a simple console program that dump all the supported drivers (GDAL/OGR) with theire 
-    capabilities (i.e. Read/Write)
-    
-    * test_static_gdalinfo workspace:
-    this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
-    "windows console" workspace statically linked to GDAL 2.0.2
-
-All the dll, lib and exe are copied by VC post-build steps in the .\libgdal-2.0.2\binaries folder.
+	* The folder libgdal-2.0.2 contain a MS Visual Studio Solution with all the workspaces and a "binaries"
+	sub-folder with each architecture and configuration binaries copied by VC post-build steps.
+	There is both dynamic (dll) and static workspaces (lib) of GDAL 2.0.2 with 3 test workspaces:
 	
+		+ test_dynamic_gdalbuildvrt workspace:
+		this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a 
+		"windows console" workspace dynamically linked to GDAL 2.0.2
+		
+		+ test_static_libgdal-2.0.2 workspace:
+		this is a simple console program that dump all the supported drivers (GDAL/OGR) with theire 
+		capabilities (i.e. Read/Write)
+		
+		+ test_static_gdalinfo workspace:
+		this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
+		"windows console" workspace statically linked to GDAL 2.0.2
+	
+	
+	* The 3rdpart folder contain the library not provided internally by GDAL and necessary for some format I choosed to add (OSM,...).
+	For now it contain the libexpat (linlked dynamically) and libsqlite3.12 amalgamation included in the GDAL workspaces.
+
+
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.0.2.lib (more than 650 MB),
 so you will have to rebuild the static lib version.
 	
-Libexpat 2.10 and libsqlite 3.12 are provided in the "3rdpart" folder
-
 
 ## 2016-06-29: Warning this is a work in progress
 
