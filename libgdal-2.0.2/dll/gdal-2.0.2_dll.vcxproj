@@ -125,7 +125,7 @@ copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(Solu
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/win32/bin/$(Configuration);../../3rdpart/sqlite-3.12/libsqlite/dll/$(PlatformShortName)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/x64/bin/$(Configuration)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)
@@ -174,7 +174,7 @@ copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(Solu
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/win32/bin/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/x64/bin/$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>

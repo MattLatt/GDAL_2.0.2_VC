@@ -1,129 +1,22 @@
-﻿Build started 28/06/2016 09:43:30.
-     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" on node 2 (build target(s)).
+﻿Build started 29/06/2016 09:43:29.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.lib" /MACHINE:X86 "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\commonutils.obj"
-         "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\gdalinfo.obj"
-            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.exp
-     1>commonutils.obj : error LNK2001: unresolved external symbol _CSLFindString
-     1>commonutils.obj : error LNK2001: unresolved external symbol _CPLGetExtension
-     1>commonutils.obj : error LNK2001: unresolved external symbol _GDALGetDriverCount@0
-     1>commonutils.obj : error LNK2001: unresolved external symbol _GDALGetDriver@4
-     1>commonutils.obj : error LNK2001: unresolved external symbol "public: char * __thiscall CPLStringList::operator[](int)" (??ACPLStringList@@QAEPADH@Z)
-     1>commonutils.obj : error LNK2001: unresolved external symbol "public: char const * __thiscall CPLStringList::operator[](int)const " (??ACPLStringList@@QBEPBDH@Z)
-     1>commonutils.obj : error LNK2001: unresolved external symbol "public: class CPLStringList & __thiscall CPLStringList::Assign(char * *,int)" (?Assign@CPLStringList@@QAEAAV1@PAPADH@Z)
-     1>commonutils.obj : error LNK2001: unresolved external symbol "public: class CPLStringList & __thiscall CPLStringList::InsertStringDirectly(int,char *)" (?InsertStringDirectly@CPLStringList@@QAEAAV1@HPAD@Z)
-     1>commonutils.obj : error LNK2001: unresolved external symbol "public: int __thiscall CPLStringList::Count(void)const " (?Count@CPLStringList@@QBEHXZ)
-     1>commonutils.obj : error LNK2001: unresolved external symbol _CSLTokenizeString
-     1>commonutils.obj : error LNK2001: unresolved external symbol _CSLPartialFindString
-     1>commonutils.obj : error LNK2001: unresolved external symbol _GDALGetDriverShortName@4
-     1>commonutils.obj : error LNK2001: unresolved external symbol _GDALGetMetadataItem@12
-     1>commonutils.obj : error LNK2001: unresolved external symbol _CSLDestroy@4
-     1>commonutils.obj : error LNK2001: unresolved external symbol _VSIFree
-     1>commonutils.obj : error LNK2001: unresolved external symbol _CPLSetConfigOption@8
-     1>commonutils.obj : error LNK2001: unresolved external symbol _CPLStrdup
-     1>commonutils.obj : error LNK2001: unresolved external symbol _GDALGetDriverByName@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALChecksumImage@20
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetDataTypeName@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetGCPProjection@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLDumpSharedList
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_put
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRandomRasterSample@12
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALDestroyDriverManager@0
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterBandYSize@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALComputeRasterMinMax@12
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALDummyProgress@16
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_object_add
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetMetadataDomainList@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetMaskFlags@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_new_int
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetColorInterpretationName
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALClose@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLPushErrorHandler@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterOffset@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OCTDestroyCoordinateTransformation@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterDataType@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLSPrintf
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OSRExportToPrettyWkt@12
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_to_json_string_ext
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALDumpOpenDatasets@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterMaximum@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLErrorReset@0
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetDefaultHistogramEx@32
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALVersionInfo@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALHasArbitraryOverviews@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterStatistics@28
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetProjectionRef@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALRATDumpReadable@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALTermProgress@16
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OCTNewCoordinateTransformation@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetMetadata@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALOpenEx@20
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLQuietErrorHandler@12
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetMaskBand@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_new_string
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLCleanupTLS
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterColorTable@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _VSIReadDirRecursive
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterBandXSize@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CSLCount
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterNoDataValue@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OCTTransform@20
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterMinimum@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetDatasetDriver@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CSLDuplicate
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_array_add
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_new_int64
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterBand@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetDriverLongName@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetGCPs@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterCategoryNames@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_new_double
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetFileList@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetDefaultRAT@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLPopErrorHandler@0
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterUnitType@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_new_array
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CSLAddString
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterScale@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetGeoTransform@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _json_object_new_double_with_precision
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OSRDestroySpatialReference@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetDescription@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALDecToDMS@16
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetBlockSize@12
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OSRNewSpatialReference@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetPaletteInterpretationName
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _gdal_json_object_new_object
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetPaletteInterpretation@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLprintf
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterXSize@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterCount@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CSLFetchNameValue
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetColorEntryAsRGB@12
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetGCPCount@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OSRSetWellKnownGeogCS
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterYSize@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetOverview@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetOverviewCount@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLGetLastErrorType@0
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALAllRegister@0
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALOpen@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGeneralCmdLineProcessor@12
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OSRCloneGeogCS@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetColorEntryCount@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OSRExportToProj4@8
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _CPLParseNameValue
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALGetRasterColorInterpretation@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _GDALRATSerializeJSON@4
-     1>gdalinfo.obj : error LNK2001: unresolved external symbol _OSRImportFromWkt
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.exe : fatal error LNK1120: 112 unresolved externals
-     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" (build target(s)) -- FAILED.
+         All outputs are up-to-date.
+         test_static_gdalinfo.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.exe
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.exe K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\binaries\lib\x86\Release\test_static_gdalinfo.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_gdalinfo\x86\Release\test_static_gdalinfo.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.19
+Time Elapsed 00:00:00.13

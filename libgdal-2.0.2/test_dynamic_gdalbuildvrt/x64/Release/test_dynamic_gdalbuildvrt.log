@@ -1,13 +1,21 @@
-﻿Build started 28/06/2016 09:38:54.
-     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" on node 2 (build target(s)).
+﻿Build started 29/06/2016 09:41:14.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\gdal-2.0.2\apps\gdalbuildvrt.cpp"
-         gdalbuildvrt.cpp
-     1>..\..\gdal-2.0.2\apps\gdalbuildvrt.cpp(30): fatal error C1083: Cannot open include file: 'gdal_proxy.h': No such file or directory
-     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC_Solution\libgdal-2.0.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" (build target(s)) -- FAILED.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         test_dynamic_gdalbuildvrt.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\binaries\dll\x64\Release\test_dynamic_gdalbuildvrt.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.14
+Time Elapsed 00:00:00.24
