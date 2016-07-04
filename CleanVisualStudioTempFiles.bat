@@ -8,5 +8,5 @@ set hour=%time:~0,2%
 set min=%time:~3,2%
 set secs=%time:~6,2%
 cd ./
-del /S /F /Q  *.obj;*.ilk;*.sdf;*.pch;*.pdb;*.tlog;*.bsc;*.sbr;*.idb; > CleanVisualSutioTempFiles_%year%%month%%day%_%hour%%min%%secs%.log
+del /S /F /Q  *.obj;*.ilk;*.sdf;*.pch;*.pdb;*.tlog;*.bsc;*.sbr;*.idb; > CleanVisualStudioTempFiles_%year%%month%%day%_%hour%%min%%secs%.log
 pause
