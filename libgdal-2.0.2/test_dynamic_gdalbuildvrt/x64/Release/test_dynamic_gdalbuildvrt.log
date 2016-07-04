@@ -1,12 +1,49 @@
-﻿Build started 29/06/2016 09:41:14.
+﻿Build started 04/07/2016 15:29:20.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.0.2/alg" /I"../../gdal-2.0.2/frmts" /I"../../gdal-2.0.2/gcore" /I"../../gdal-2.0.2/ogr" /I"../../gdal-2.0.2/port" /I"../../gdal-2.0.2/frmts/vrt" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson/libjson" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\gdal-2.0.2\apps\gdalbuildvrt.cpp"
+         gdalbuildvrt.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\gdal-2.0.2\port\cpl_string.h(237): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>k:\components\libraryv2\gdal\gdal_2.0.2_vc\gdal-2.0.2\gcore\gdal_priv.h(586): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>k:\components\libraryv2\gdal\gdal_2.0.2_vc\gdal-2.0.2\gcore\gdal_priv.h(980): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\gdal-2.0.2\frmts\vrt\vrtdataset.h(285): warning C4251: 'VRTRasterBand::apoOverviews' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTRasterBand'
+                 with
+                 [
+                     _Ty=VRTOverviewInfo
+                 ]
        Link:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../dll/x64/Release "gdal-2.0.2.lib" /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\gdalbuildvrt.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exp
+         Generating code
+         Finished generating code
          test_dynamic_gdalbuildvrt.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe.intermediate.manifest"
        PostBuildEvent:
          copy K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\binaries\dll\x64\Release\test_dynamic_gdalbuildvrt.exe
          :VCEnd
@@ -18,4 +55,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.24
+Time Elapsed 00:00:03.45

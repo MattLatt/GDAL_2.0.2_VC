@@ -1,9 +1,587 @@
-﻿Build started 29/06/2016 09:11:40.
+﻿Build started 04/07/2016 15:51:50.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\gdal-2.0.2_dll.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\gdal-2.0.2_dll.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\gdal-2.0.2_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.0.2/alg" /I"../../gdal-2.0.2/frmts" /I"../../gdal-2.0.2/frmts/blx" /I"../../gdal-2.0.2/frmts/gif/giflib" /I"../../gdal-2.0.2/frmts/gtiff" /I"../../gdal-2.0.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.0.2/frmts/gtiff/libtiff" /I"../../gdal-2.0.2/frmts/idrisi" /I"../../gdal-2.0.2/frmts/iso8211" /I"../../gdal-2.0.2/frmts/jpeg" /I"../../gdal-2.0.2/frmts/jpeg/libjpeg" /I"../../gdal-2.0.2/frmts/mem" /I"../../gdal-2.0.2/frmts/pcidsk/sdk" /I"../../gdal-2.0.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.0.2/frmts/pcraster/libcsf" /I"../../gdal-2.0.2/frmts/pds" /I"../../gdal-2.0.2/frmts/png/libpng" /I"../../gdal-2.0.2/frmts/raw" /I"../../gdal-2.0.2/frmts/sdts" /I"../../gdal-2.0.2/frmts/vrt" /I"../../gdal-2.0.2/frmts/zlib" /I"../../gdal-2.0.2/gcore" /I"../../gdal-2.0.2/ogr" /I"../../gdal-2.0.2/ogr/ogrsf_frmts" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.0.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D BUILD_AS_DLL /D OGR_ENABLED /D GDALDRIVER /D GDAL_SUPPORT /D GDAL_COMPILATION /D USE_CPL /D INTERNAL_LIBGEOTIFF /D INTERNAL_LIBTIFF /D JPEG_INTERNALS /D BIGTIFF_SUPPORT /D INCLUDE_OGR_FRMTS /D SQLITE_LIB /D HAVE_LIBZ /D HAVE_MITAB /D HAVE_EXPAT /D HAVE_SQLITE /D HAVE_LIBJPEG /D FRMT_ceos /D FRMT_aigrid /D FRMT_elas /D FRMT_hfa /D FRMT_gtiff /D FRMT_sdts /D FRMT_raw /D FRMT_gxf /D FRMT_ceos2 /D FRMT_png /D FRMT_dted /D FRMT_mem /D FRMT_jpeg /D FRMT_vrt /D FRMT_nitf /D FRMT_gif /D FRMT_envisat /D FRMT_bsb /D FRMT_xpm /D FRMT_bmp /D FRMT_airsar /D FRMT_rs2 /D FRMT_pcidsk /D FRMT_pcraster /D FRMT_ilwis /D SHAPE_ENABLED /D TAB_ENABLED /D NTF_ENABLED /D SDTS_ENABLED /D S57_ENABLED /D DGN_ENABLED /D VRT_ENABLED /D REC_ENABLED /D MEM_ENABLED /D BNA_ENABLED /D CSV_ENABLED /D GML_ENABLED /D GPX_ENABLED /D KML_ENABLED /D GEOJSON_ENABLED /D GMT_ENABLED /D WASP_ENABLED /D OPENFILEGDB_ENABLED /D XPLANE_ENABLED /D DXF_ENABLED /D GEOCONCEPT_ENABLED /D GEORSS_ENABLED /D GTM_ENABLED /D PGDUMP_ENABLED /D OSM_ENABLED /D GPSBABEL_ENABLED /D SUA_ENABLED /D OPENAIR_ENABLED /D PDS_ENABLED /D HTF_ENABLED /D AERONAVFAA_ENABLED /D EDIGEO_ENABLED /D SVG_ENABLED /D IDRISI_ENABLED /D ARCGEN_ENABLED /D SEGUKOOA_ENABLED /D SEGY_ENABLED /D SXF_ENABLED /D SELAFIN_ENABLED /D JML_ENABLED /D TIGER_ENABLED /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "..\..\3rdpart\sqlite-3.12\sqlite-3.12-amalgamation\sqlite3.c" "..\..\gdal-2.0.2\alg\gdal_crs.c" "..\..\gdal-2.0.2\alg\gdalwarpkernel_opencl.c" "..\..\gdal-2.0.2\frmts\aigrid\aigccitt.c" "..\..\gdal-2.0.2\frmts\aigrid\aigopen.c" "..\..\gdal-2.0.2\frmts\aigrid\gridlib.c" "..\..\gdal-2.0.2\frmts\blx\blx.c" "..\..\gdal-2.0.2\frmts\bsb\bsb2raw.c" "..\..\gdal-2.0.2\frmts\bsb\bsb_read.c" "..\..\gdal-2.0.2\frmts\ceos2\ceos.c" "..\..\gdal-2.0.2\frmts\ceos2\ceosrecipe.c" "..\..\gdal-2.0.2\frmts\ceos2\ceossar.c" "..\..\gdal-2.0.2\frmts\ceos2\link.c" "..\..\gdal-2.0.2\frmts\ceos\ceosopen.c" "..\..\gdal-2.0.2\frmts\dted\dted_api.c" "..\..\gdal-2.0.2\frmts\dted\dted_create.c" "..\..\gdal-2.0.2\frmts\dted\dted_ptstream.c" "..\..\gdal-2.0.2\frmts\e00grid\e00read.c" "..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c" "..\..\gdal-2.0.2\frmts\envisat\records.c" "..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c" "..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c" "..\..\gdal-2.0.2\frmts\gif\giflib\gif_err.c" "..\..\gdal-2.0.2\frmts\gif\giflib\gif_hash.c" "..\..\gdal-2.0.2\frmts\gif\giflib\gifalloc.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_extra.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_free.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_get.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_names.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_new.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_normalize.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_print.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_set.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_simpletags.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_tiffp.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_trans.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_write.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geotiff_proj4.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\xtiff.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_aux.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_close.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_codec.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_color.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_compress.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dir.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dirinfo.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dirread.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dirwrite.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dumpmode.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_error.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_extension.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_fax3.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_fax3sm.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_flush.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_getimage.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_jpeg.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_jpeg_12.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_luv.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_lzma.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_lzw.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_next.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_ojpeg.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_open.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_packbits.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_pixarlog.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_predict.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_print.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_read.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_strip.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_swab.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_thunder.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_tile.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_version.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_vsi.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_warning.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_write.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_zip.c" "..\..\gdal-2.0.2\frmts\gtiff\tif_float.c" "..\..\gdal-2.0.2\frmts\gxf\gxf_ogcwkt.c" "..\..\gdal-2.0.2\frmts\gxf\gxf_proj4.c" "..\..\gdal-2.0.2\frmts\gxf\gxfopen.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcapimin.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcapistd.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jccoefct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jccolor.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcdctmgr.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jchuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcinit.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcmainct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcmarker.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcmaster.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcomapi.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcparam.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcphuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcprepct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcsample.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jctrans.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdapimin.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdapistd.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdatadst.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdatasrc.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdcoefct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdcolor.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jddctmgr.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdhuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdinput.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmainct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmarker.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmaster.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmerge.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdphuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdpostct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdsample.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdtrans.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jerror.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctflt.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctfst.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctint.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctflt.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctfst.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctint.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctred.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jmemansi.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jmemmgr.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jquant1.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jquant2.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jutils.c" "..\..\gdal-2.0.2\frmts\nitf\mgrs.c" "..\..\gdal-2.0.2\frmts\nitf\nitfdes.c" "..\..\gdal-2.0.2\frmts\nitf\nitffile.c" "..\..\gdal-2.0.2\frmts\nitf\nitfimage.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\angle.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\attravai.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\attrsize.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\cellsize.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\create2.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\csfglob.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\csfsup.c"
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.0.2/alg" /I"../../gdal-2.0.2/frmts" /I"../../gdal-2.0.2/frmts/blx" /I"../../gdal-2.0.2/frmts/gif/giflib" /I"../../gdal-2.0.2/frmts/gtiff" /I"../../gdal-2.0.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.0.2/frmts/gtiff/libtiff" /I"../../gdal-2.0.2/frmts/idrisi" /I"../../gdal-2.0.2/frmts/iso8211" /I"../../gdal-2.0.2/frmts/jpeg" /I"../../gdal-2.0.2/frmts/jpeg/libjpeg" /I"../../gdal-2.0.2/frmts/mem" /I"../../gdal-2.0.2/frmts/pcidsk/sdk" /I"../../gdal-2.0.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.0.2/frmts/pcraster/libcsf" /I"../../gdal-2.0.2/frmts/pds" /I"../../gdal-2.0.2/frmts/png/libpng" /I"../../gdal-2.0.2/frmts/raw" /I"../../gdal-2.0.2/frmts/sdts" /I"../../gdal-2.0.2/frmts/vrt" /I"../../gdal-2.0.2/frmts/zlib" /I"../../gdal-2.0.2/gcore" /I"../../gdal-2.0.2/ogr" /I"../../gdal-2.0.2/ogr/ogrsf_frmts" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.0.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D BUILD_AS_DLL /D OGR_ENABLED /D GDALDRIVER /D GDAL_SUPPORT /D GDAL_COMPILATION /D USE_CPL /D INTERNAL_LIBGEOTIFF /D INTERNAL_LIBTIFF /D JPEG_INTERNALS /D BIGTIFF_SUPPORT /D INCLUDE_OGR_FRMTS /D SQLITE_LIB /D HAVE_LIBZ /D HAVE_MITAB /D HAVE_EXPAT /D HAVE_SQLITE /D HAVE_LIBJPEG /D FRMT_ceos /D FRMT_aigrid /D FRMT_elas /D FRMT_hfa /D FRMT_gtiff /D FRMT_sdts /D FRMT_raw /D FRMT_gxf /D FRMT_ceos2 /D FRMT_png /D FRMT_dted /D FRMT_mem /D FRMT_jpeg /D FRMT_vrt /D FRMT_nitf /D FRMT_gif /D FRMT_envisat /D FRMT_bsb /D FRMT_xpm /D FRMT_bmp /D FRMT_airsar /D FRMT_rs2 /D FRMT_pcidsk /D FRMT_pcraster /D FRMT_ilwis /D SHAPE_ENABLED /D TAB_ENABLED /D NTF_ENABLED /D SDTS_ENABLED /D S57_ENABLED /D DGN_ENABLED /D VRT_ENABLED /D REC_ENABLED /D MEM_ENABLED /D BNA_ENABLED /D CSV_ENABLED /D GML_ENABLED /D GPX_ENABLED /D KML_ENABLED /D GEOJSON_ENABLED /D GMT_ENABLED /D WASP_ENABLED /D OPENFILEGDB_ENABLED /D XPLANE_ENABLED /D DXF_ENABLED /D GEOCONCEPT_ENABLED /D GEORSS_ENABLED /D GTM_ENABLED /D PGDUMP_ENABLED /D OSM_ENABLED /D GPSBABEL_ENABLED /D SUA_ENABLED /D OPENAIR_ENABLED /D PDS_ENABLED /D HTF_ENABLED /D AERONAVFAA_ENABLED /D EDIGEO_ENABLED /D SVG_ENABLED /D IDRISI_ENABLED /D ARCGEN_ENABLED /D SEGUKOOA_ENABLED /D SEGY_ENABLED /D SXF_ENABLED /D SELAFIN_ENABLED /D JML_ENABLED /D TIGER_ENABLED /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "..\..\3rdpart\sqlite-3.12\sqlite-3.12-amalgamation\sqlite3.c" "..\..\gdal-2.0.2\frmts\bsb\bsb2raw.c" "..\..\gdal-2.0.2\frmts\bsb\bsb_read.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcapimin.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcapistd.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jccoefct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jccolor.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcdctmgr.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jchuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcinit.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcmainct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcmarker.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcmaster.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcomapi.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcparam.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcphuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcprepct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcsample.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jctrans.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdapimin.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdapistd.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdatadst.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdatasrc.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdcoefct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdcolor.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jddctmgr.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdhuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdinput.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmainct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmarker.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmaster.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdmerge.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdphuff.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdpostct.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdsample.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdtrans.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jerror.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctflt.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctfst.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctint.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctflt.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctfst.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctint.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctred.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jmemansi.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jmemmgr.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jquant1.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jquant2.c" "..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jutils.c" "..\..\gdal-2.0.2\alg\gdalwarpkernel_opencl.c" "..\..\gdal-2.0.2\alg\gdal_crs.c" "..\..\gdal-2.0.2\frmts\aigrid\aigccitt.c" "..\..\gdal-2.0.2\frmts\aigrid\aigopen.c" "..\..\gdal-2.0.2\frmts\aigrid\gridlib.c" "..\..\gdal-2.0.2\frmts\blx\blx.c" "..\..\gdal-2.0.2\frmts\ceos2\ceos.c" "..\..\gdal-2.0.2\frmts\ceos2\ceosrecipe.c" "..\..\gdal-2.0.2\frmts\ceos2\ceossar.c" "..\..\gdal-2.0.2\frmts\ceos2\link.c" "..\..\gdal-2.0.2\frmts\ceos\ceosopen.c" "..\..\gdal-2.0.2\frmts\dted\dted_api.c" "..\..\gdal-2.0.2\frmts\dted\dted_create.c" "..\..\gdal-2.0.2\frmts\dted\dted_ptstream.c" "..\..\gdal-2.0.2\frmts\e00grid\e00read.c" "..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c" "..\..\gdal-2.0.2\frmts\envisat\records.c" "..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c" "..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c" "..\..\gdal-2.0.2\frmts\gif\giflib\gifalloc.c" "..\..\gdal-2.0.2\frmts\gif\giflib\gif_err.c" "..\..\gdal-2.0.2\frmts\gif\giflib\gif_hash.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geotiff_proj4.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_extra.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_free.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_get.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_names.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_new.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_normalize.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_print.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_set.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_simpletags.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_tiffp.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_trans.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_write.c" "..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\xtiff.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_aux.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_close.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_codec.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_color.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_compress.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dir.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dirinfo.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dirread.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dirwrite.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_dumpmode.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_error.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_extension.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_fax3.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_fax3sm.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_flush.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_getimage.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_jpeg.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_jpeg_12.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_luv.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_lzma.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_lzw.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_next.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_ojpeg.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_open.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_packbits.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_pixarlog.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_predict.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_print.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_read.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_strip.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_swab.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_thunder.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_tile.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_version.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_vsi.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_warning.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_write.c" "..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_zip.c" "..\..\gdal-2.0.2\frmts\gtiff\tif_float.c" "..\..\gdal-2.0.2\frmts\gxf\gxfopen.c" "..\..\gdal-2.0.2\frmts\gxf\gxf_ogcwkt.c" "..\..\gdal-2.0.2\frmts\gxf\gxf_proj4.c" "..\..\gdal-2.0.2\frmts\nitf\mgrs.c" "..\..\gdal-2.0.2\frmts\nitf\nitfdes.c" "..\..\gdal-2.0.2\frmts\nitf\nitffile.c" "..\..\gdal-2.0.2\frmts\nitf\nitfimage.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\angle.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\attravai.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\attrsize.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\cellsize.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\create2.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\csfglob.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\csfsup.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\delattr.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\dumconv.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\endian.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\filename.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gattrblk.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gattridx.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gcellrep.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gdattype.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\getattr.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\getx0.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gety0.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\ggisfid.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gmaxval.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gminval.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gnrcols.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gnrrows.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gproj.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gputproj.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gvalscal.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gvartype.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\gversion.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\ismv.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\kernlcsf.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\legend.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\mclose.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\mopen.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\moreattr.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\mperror.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\pgisfid.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\pmaxval.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\pminval.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\putallmv.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\putattr.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\putsomec.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\putx0.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\puty0.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\pvalscal.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\rattrblk.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\rcomp.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\rcoords.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\rdup2.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\reseterr.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\rextend.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\rmalloc.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\rrowcol.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\ruseas.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\setangle.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\setmv.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\setvtmv.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\strconst.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\strpad.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\swapio.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\trackmm.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\vs2.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\vsdef.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\vsis.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\vsvers.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\wattrblk.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\_getcell.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\_getrow.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\_gsomece.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\_putcell.c" "..\..\gdal-2.0.2\frmts\pcraster\libcsf\_rputrow.c" "..\..\gdal-2.0.2\frmts\png\libpng\png.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngerror.c" "..\..\gdal-2.0.2\frmts\png\libpng\pnggccrd.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngget.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngmem.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngpread.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngread.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngrio.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngrtran.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngset.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngtrans.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngvcrd.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngwio.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngwrite.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngwtran.c" "..\..\gdal-2.0.2\frmts\png\libpng\pngwutil.c" "..\..\gdal-2.0.2\frmts\zlib\adler32.c" "..\..\gdal-2.0.2\frmts\zlib\compress.c" "..\..\gdal-2.0.2\frmts\zlib\crc32.c" "..\..\gdal-2.0.2\frmts\zlib\deflate.c" "..\..\gdal-2.0.2\frmts\zlib\gzio.c" "..\..\gdal-2.0.2\frmts\zlib\infback.c" "..\..\gdal-2.0.2\frmts\zlib\inffast.c" "..\..\gdal-2.0.2\frmts\zlib\inflate.c" "..\..\gdal-2.0.2\frmts\zlib\inftrees.c" "..\..\gdal-2.0.2\frmts\zlib\trees.c" "..\..\gdal-2.0.2\frmts\zlib\uncompr.c" "..\..\gdal-2.0.2\frmts\zlib\zutil.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_bin.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_binwr.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00gen.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00write.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_mbyte.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_misc.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_rawbin.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept_syscoord.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\arraylist.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\debug.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_c_version.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_object.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_object_iterator.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\linkhash.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\printbuf.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\sbnsearch.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shptree.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shp_vsi.c" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqliteapiroutines.c" "..\..\gdal-2.0.2\ogr\osr_cs_wkt.c" "..\..\gdal-2.0.2\ogr\osr_cs_wkt_parser.c"
+         osr_cs_wkt_parser.c
+         osr_cs_wkt.c
+     1>..\..\gdal-2.0.2\ogr\osr_cs_wkt.c(50): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\osr_cs_wkt.c(51): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         ogrsqliteapiroutines.c
+         shp_vsi.c
+         shptree.c
+         shpopen.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(547): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(548): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(561): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(565): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(573): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(584): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(588): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(596): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(651): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(722): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(747): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(937): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(938): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(950): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(958): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1532): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1716): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1744): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1771): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1796): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1811): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1821): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1870): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1904): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1928): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1960): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1984): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(1993): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(2106): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(2120): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(2135): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(2162): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shpopen.c(2272): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+         sbnsearch.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\sbnsearch.c(233): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\sbnsearch.c(283): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         dbfopen.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(286): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(434): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(435): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(444): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(452): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(456): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(460): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(534): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(536): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(697): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(698): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(707): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(731): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(743): warning C4267: 'function' : conversion from 'size_t' to 'SAOffset', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(784): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(911): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(913): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1257): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1359): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1367): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1387): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1391): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1456): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1460): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1684): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1706): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(1713): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(2087): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\dbfopen.c(2089): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+         printbuf.c
+         linkhash.c
+         json_util.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(76): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(235) : see declaration of '_open'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(78): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(82): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(86): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(313) : see declaration of 'read'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(89): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(92): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(114): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(235) : see declaration of '_open'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(116): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(121): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(128): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(318) : see declaration of 'write'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(129): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(131): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(139): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(169): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(173): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(203): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(232): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c(240): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         json_tokener.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(356): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(356): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(360): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(360): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(371): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(371): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(375): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(375): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(397): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(397): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(403): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(403): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(409): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(409): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(675): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(675): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(681): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(681): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(687): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(687): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+         json_object_iterator.c
+         json_object.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_object.c(315): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_object.c(578): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_object.c(600): warning C4244: 'return' : conversion from 'int64_t' to 'double', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\libjson\json_object.c(637): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         json_c_version.c
+         debug.c
+         arraylist.c
+         geoconcept_syscoord.c
+         geoconcept.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(319): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(426): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(430): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(434): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(438): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(442): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(446): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(450): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(454): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(458): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(462): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(466): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(559): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(702): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(845): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(879): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(987): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1053): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1132): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1134): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1136): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1138): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1140): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1142): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1144): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1146): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1148): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1150): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1152): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1376): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1396): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1428): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1462): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1481): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1540): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1590): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1636): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1654): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1700): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(1732): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(2255): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(2272): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(2282): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3094): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3115): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3172): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3193): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3283): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3304): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3361): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3382): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3472): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3493): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3550): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3571): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3647): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3668): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3831): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3852): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(3952): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4115): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4208): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4209): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4730): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4830): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4834): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4844): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4857): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4870): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c(4883): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+         avc_rawbin.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_rawbin.c(264): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_rawbin.c(647): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         avc_misc.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_misc.c(440): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_misc.c(492): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         avc_mbyte.c
+         avc_e00write.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00write.c(252): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00write.c(273): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         avc_e00read.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(207): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(229): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(246): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(654): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(752): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(760): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(1002): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(1292): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00read.c(1377): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         avc_e00parse.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(697): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(810): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(953): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(1067): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(1179): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(1274): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(1314): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(1546): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(1745): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(1810): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_e00parse.c(2197): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         avc_e00gen.c
+         avc_binwr.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_binwr.c(207): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_binwr.c(1085): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_binwr.c(1201): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_binwr.c(1775): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_binwr.c(1965): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         avc_bin.c
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_bin.c(576): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_bin.c(1823): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\avc_bin.c(1967): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzio.c
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(181): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(226): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(627): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(1001): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(1008): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(1009): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>..\..\gdal-2.0.2\frmts\zlib\gzio.c(1010): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         Generating Code...
+         Compiling...
+         pngwutil.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwutil.c(191): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwutil.c(199): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwutil.c(1265): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwutil.c(1594): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwutil.c(1656): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwutil.c(1658): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+         pngwtran.c
+         pngwrite.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwrite.c(451): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwrite.c(563): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwrite.c(568): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwrite.c(636): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwrite.c(641): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+         pngwio.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngwio.c(60): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngvcrd.c
+         pngtrans.c
+         pngset.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngset.c(302): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngset.c(319): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngset.c(342): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngset.c(606): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngset.c(944): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngrutil.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(228): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(238): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(241): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(295): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(362): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(395): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(409): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(1121): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(1238): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(3349): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(3352): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(3353): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(3357): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(3372): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(3373): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrutil.c(3376): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngrtran.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngrtran.c(1358): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+         pngrio.c
+         pngread.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngread.c(139): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngread.c(144): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngread.c(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngread.c(232): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+         pngpread.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngpread.c(572): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngpread.c(588): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngpread.c(764): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\png\libpng\pngpread.c(788): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngmem.c
+         pngget.c
+         pnggccrd.c
+         pngerror.c
+         png.c
+     1>..\..\gdal-2.0.2\frmts\png\libpng\png.c(709): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+         _rputrow.c
+         _putcell.c
+         _gsomece.c
+         Generating Code...
+         Compiling...
+         _getrow.c
+         _getcell.c
+         wattrblk.c
+         vsvers.c
+         vsis.c
+         vsdef.c
+         vs2.c
+         trackmm.c
+         swapio.c
+         strpad.c
+         strconst.c
+     1>..\..\gdal-2.0.2\frmts\pcraster\libcsf\strconst.c(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gdal-2.0.2\frmts\pcraster\libcsf\strconst.c(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         setvtmv.c
+         setmv.c
+         setangle.c
+         ruseas.c
+         rrowcol.c
+         rmalloc.c
+         rextend.c
+         reseterr.c
+         rdup2.c
+         Generating Code...
+         Compiling...
+         rcoords.c
+         rcomp.c
+         rattrblk.c
+         pvalscal.c
+         puty0.c
+         putx0.c
+         putsomec.c
+         putattr.c
+     1>..\..\gdal-2.0.2\frmts\pcraster\libcsf\putattr.c(202): warning C4267: '=' : conversion from 'size_t' to 'UINT4', possible loss of data
+         putallmv.c
+         pminval.c
+         pmaxval.c
+         pgisfid.c
+         mperror.c
+         moreattr.c
+         mopen.c
+     1>..\..\gdal-2.0.2\frmts\pcraster\libcsf\mopen.c(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\frmts\pcraster\libcsf\mopen.c(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         mclose.c
+         legend.c
+     1>..\..\gdal-2.0.2\frmts\pcraster\libcsf\legend.c(9): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         kernlcsf.c
+     1>..\..\gdal-2.0.2\frmts\pcraster\libcsf\kernlcsf.c(109): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         ismv.c
+         gversion.c
+         Generating Code...
+         Compiling...
+         gvartype.c
+         gvalscal.c
+         gputproj.c
+         gproj.c
+         gnrrows.c
+         gnrcols.c
+         gminval.c
+         gmaxval.c
+         ggisfid.c
+         gety0.c
+         getx0.c
+         getattr.c
+         gdattype.c
+         gcellrep.c
+         gattridx.c
+         gattrblk.c
+         filename.c
+         endian.c
+         dumconv.c
+         delattr.c
+         Generating Code...
+         Compiling...
          csfsup.c
          csfglob.c
          create2.c
@@ -53,6 +631,201 @@
                  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
      1>..\..\gdal-2.0.2\frmts\nitf\mgrs.c(711): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+         gxf_proj4.c
+         gxf_ogcwkt.c
+         gxfopen.c
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(77): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(84): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(101): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(124): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(225): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(230): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(234): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(238): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(242): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(246): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(249): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(252): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(256): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(260): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(264): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(268): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(272): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(277): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(282): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(299): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(317): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(329): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
+         tif_float.c
+         tif_zip.c
+         tif_write.c
+         tif_warning.c
+         tif_vsi.c
+         tif_version.c
+         Generating Code...
+         Compiling...
+         tif_tile.c
+         tif_thunder.c
+         tif_swab.c
+         tif_strip.c
+         tif_read.c
+         tif_print.c
+     1>..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_print.c(399): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_print.c(678): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         tif_predict.c
+         tif_pixarlog.c
+         tif_packbits.c
+         tif_open.c
+         tif_ojpeg.c
+         tif_next.c
+         tif_lzw.c
+         tif_lzma.c
+         tif_luv.c
+         tif_jpeg_12.c
+         tif_jpeg.c
+         tif_getimage.c
+         tif_flush.c
+         tif_fax3sm.c
+         Generating Code...
+         Compiling...
+         tif_fax3.c
+         tif_extension.c
+         tif_error.c
+         tif_dumpmode.c
+         tif_dirwrite.c
+         tif_dirread.c
+         tif_dirinfo.c
+         tif_dir.c
+         tif_compress.c
+         tif_color.c
+         tif_codec.c
+         tif_close.c
+         tif_aux.c
+         xtiff.c
+         geo_write.c
+         geo_trans.c
+         geo_tiffp.c
+         geo_simpletags.c
+     1>..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_simpletags.c(202): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         geo_set.c
+     1>..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_set.c(130): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         geo_print.c
+         Generating Code...
+         Compiling...
+         geo_normalize.c
+         geo_new.c
+         geo_names.c
+         geo_get.c
+         geo_free.c
+         geo_extra.c
+         geotiff_proj4.c
+         gif_hash.c
+         gif_err.c
+         gifalloc.c
+         egif_lib.c
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(84): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : see declaration of 'open'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(90): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : see declaration of 'open'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(98): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(137): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(314) : see declaration of 'setmode'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(140): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(721) : see declaration of 'fdopen'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(214): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(247): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(472): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(475): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1012): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1014): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1016): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1024): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1027): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+         dgif_lib.c
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(72): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : see declaration of 'open'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(97): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(106): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(111): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(314) : see declaration of 'setmode'
+     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(114): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(721) : see declaration of 'fdopen'
+         records.c
+     1>..\..\gdal-2.0.2\frmts\envisat\records.c(1232): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         EnvisatFile.c
+     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1157): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1220): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1477): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1601): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1776): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         e00read.c
+     1>..\..\gdal-2.0.2\frmts\e00grid\e00read.c(146): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\..\gdal-2.0.2\frmts\e00grid\e00read.c(357): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\gdal-2.0.2\frmts\e00grid\e00read.c(373): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         dted_ptstream.c
+         dted_create.c
+         dted_api.c
+         ceosopen.c
+         link.c
+         Generating Code...
+         Compiling...
+         ceossar.c
+         ceosrecipe.c
+         ceos.c
+     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(393): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(395): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(397): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(399): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         blx.c
+     1>..\..\gdal-2.0.2\frmts\blx\blx.c(638): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\blx\blx.c(679): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         gridlib.c
+         aigopen.c
+     1>..\..\gdal-2.0.2\frmts\aigrid\aigopen.c(57): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\aigrid\aigopen.c(465): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         aigccitt.c
+     1>..\..\gdal-2.0.2\frmts\aigrid\aigccitt.c(1842): warning C4244: '-=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\gdal-2.0.2\frmts\aigrid\aigccitt.c(1845): warning C4244: '-=' : conversion from '__int64' to 'int', possible loss of data
+         gdal_crs.c
+         gdalwarpkernel_opencl.c
          jutils.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jutils.c(14): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
@@ -92,14 +865,14 @@
          jidctflt.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jidctflt.c(39): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
-         Generating Code...
-         Compiling...
          jfdctint.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctint.c(26): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
          jfdctfst.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctfst.c(33): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
+         Generating Code...
+         Compiling...
          jfdctflt.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jfdctflt.c(37): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
@@ -152,14 +925,14 @@
          jdapistd.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdapistd.c(17): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
-         Generating Code...
-         Compiling...
          jdapimin.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jdapimin.c(19): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
          jctrans.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jctrans.c(13): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
+         Generating Code...
+         Compiling...
          jcsample.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcsample.c(48): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
@@ -205,204 +978,9 @@
          jcapimin.c
      1>..\..\gdal-2.0.2\frmts\jpeg\libjpeg\jcapimin.c(19): warning C4005: 'JPEG_INTERNALS' : macro redefinition
                  command-line arguments :  see previous definition of 'JPEG_INTERNALS'
-         gxfopen.c
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(77): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(84): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(101): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(124): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(225): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(230): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(234): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(238): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(242): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(246): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(249): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(252): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(256): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(260): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(264): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(268): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(272): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(277): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(282): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(299): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(317): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-     1>..\..\gdal-2.0.2\frmts\gxf\gxfopen.c(329): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : see declaration of 'strnicmp'
-         gxf_proj4.c
-         gxf_ogcwkt.c
-         Generating Code...
-         Compiling...
-         tif_float.c
-         tif_zip.c
-         tif_write.c
-         tif_warning.c
-         tif_vsi.c
-         tif_version.c
-         tif_tile.c
-         tif_thunder.c
-         tif_swab.c
-         tif_strip.c
-         tif_read.c
-         tif_print.c
-     1>..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_print.c(399): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\gtiff\libtiff\tif_print.c(678): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
-         tif_predict.c
-         tif_pixarlog.c
-         tif_packbits.c
-         tif_open.c
-         tif_ojpeg.c
-         tif_next.c
-         tif_lzw.c
-         tif_lzma.c
-         Generating Code...
-         Compiling...
-         tif_luv.c
-         tif_jpeg_12.c
-         tif_jpeg.c
-         tif_getimage.c
-         tif_flush.c
-         tif_fax3sm.c
-         tif_fax3.c
-         tif_extension.c
-         tif_error.c
-         tif_dumpmode.c
-         tif_dirwrite.c
-         tif_dirread.c
-         tif_dirinfo.c
-         tif_dir.c
-         tif_compress.c
-         tif_color.c
-         tif_codec.c
-         tif_close.c
-         tif_aux.c
-         xtiff.c
-         Generating Code...
-         Compiling...
-         geotiff_proj4.c
-         geo_write.c
-         geo_trans.c
-         geo_tiffp.c
-         geo_simpletags.c
-     1>..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_simpletags.c(202): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-         geo_set.c
-     1>..\..\gdal-2.0.2\frmts\gtiff\libgeotiff\geo_set.c(130): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-         geo_print.c
-         geo_normalize.c
-         geo_new.c
-         geo_names.c
-         geo_get.c
-         geo_free.c
-         geo_extra.c
-         gifalloc.c
-         gif_hash.c
-         gif_err.c
-         egif_lib.c
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(84): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : see declaration of 'open'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(90): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : see declaration of 'open'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(98): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(137): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(314) : see declaration of 'setmode'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(140): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(721) : see declaration of 'fdopen'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(214): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(247): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(472): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(475): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1012): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1014): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1016): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1024): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\egif_lib.c(1027): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-         dgif_lib.c
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(72): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : see declaration of 'open'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(97): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(106): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(111): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(314) : see declaration of 'setmode'
-     1>..\..\gdal-2.0.2\frmts\gif\giflib\dgif_lib.c(114): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(721) : see declaration of 'fdopen'
-         records.c
-     1>..\..\gdal-2.0.2\frmts\envisat\records.c(1232): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-         EnvisatFile.c
-     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1157): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1220): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1477): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1601): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\envisat\EnvisatFile.c(1776): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
-         Generating Code...
-         Compiling...
-         e00read.c
-     1>..\..\gdal-2.0.2\frmts\e00grid\e00read.c(146): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
-     1>..\..\gdal-2.0.2\frmts\e00grid\e00read.c(357): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
-     1>..\..\gdal-2.0.2\frmts\e00grid\e00read.c(373): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-         dted_ptstream.c
-         dted_create.c
-         dted_api.c
-         ceosopen.c
-         link.c
-         ceossar.c
-         ceosrecipe.c
-         ceos.c
-     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(393): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(395): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(397): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\ceos2\ceos.c(399): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
          bsb_read.c
      1>..\..\gdal-2.0.2\frmts\bsb\bsb_read.c(146): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
          bsb2raw.c
-         blx.c
-     1>..\..\gdal-2.0.2\frmts\blx\blx.c(638): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\blx\blx.c(679): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
-         gridlib.c
-         aigopen.c
-     1>..\..\gdal-2.0.2\frmts\aigrid\aigopen.c(57): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\aigrid\aigopen.c(465): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
-         aigccitt.c
-     1>..\..\gdal-2.0.2\frmts\aigrid\aigccitt.c(1842): warning C4244: '-=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.0.2\frmts\aigrid\aigccitt.c(1845): warning C4244: '-=' : conversion from '__int64' to 'int', possible loss of data
-         gdalwarpkernel_opencl.c
-         gdal_crs.c
          sqlite3.c
          Generating Code...
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.0.2/alg" /I"../../gdal-2.0.2/frmts" /I"../../gdal-2.0.2/frmts/blx" /I"../../gdal-2.0.2/frmts/gif/giflib" /I"../../gdal-2.0.2/frmts/gtiff" /I"../../gdal-2.0.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.0.2/frmts/gtiff/libtiff" /I"../../gdal-2.0.2/frmts/idrisi" /I"../../gdal-2.0.2/frmts/iso8211" /I"../../gdal-2.0.2/frmts/jpeg" /I"../../gdal-2.0.2/frmts/jpeg/libjpeg" /I"../../gdal-2.0.2/frmts/mem" /I"../../gdal-2.0.2/frmts/pcidsk/sdk" /I"../../gdal-2.0.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.0.2/frmts/pcraster/libcsf" /I"../../gdal-2.0.2/frmts/pds" /I"../../gdal-2.0.2/frmts/png/libpng" /I"../../gdal-2.0.2/frmts/raw" /I"../../gdal-2.0.2/frmts/sdts" /I"../../gdal-2.0.2/frmts/vrt" /I"../../gdal-2.0.2/frmts/zlib" /I"../../gdal-2.0.2/gcore" /I"../../gdal-2.0.2/ogr" /I"../../gdal-2.0.2/ogr/ogrsf_frmts" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.0.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.0.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D BUILD_AS_DLL /D OGR_ENABLED /D GDALDRIVER /D GDAL_SUPPORT /D GDAL_COMPILATION /D USE_CPL /D INTERNAL_LIBGEOTIFF /D INTERNAL_LIBTIFF /D JPEG_INTERNALS /D BIGTIFF_SUPPORT /D INCLUDE_OGR_FRMTS /D SQLITE_LIB /D HAVE_LIBZ /D HAVE_MITAB /D HAVE_EXPAT /D HAVE_SQLITE /D HAVE_LIBJPEG /D FRMT_ceos /D FRMT_aigrid /D FRMT_elas /D FRMT_hfa /D FRMT_gtiff /D FRMT_sdts /D FRMT_raw /D FRMT_gxf /D FRMT_ceos2 /D FRMT_png /D FRMT_dted /D FRMT_mem /D FRMT_jpeg /D FRMT_vrt /D FRMT_nitf /D FRMT_gif /D FRMT_envisat /D FRMT_bsb /D FRMT_xpm /D FRMT_bmp /D FRMT_airsar /D FRMT_rs2 /D FRMT_pcidsk /D FRMT_pcraster /D FRMT_ilwis /D SHAPE_ENABLED /D TAB_ENABLED /D NTF_ENABLED /D SDTS_ENABLED /D S57_ENABLED /D DGN_ENABLED /D VRT_ENABLED /D REC_ENABLED /D MEM_ENABLED /D BNA_ENABLED /D CSV_ENABLED /D GML_ENABLED /D GPX_ENABLED /D KML_ENABLED /D GEOJSON_ENABLED /D GMT_ENABLED /D WASP_ENABLED /D OPENFILEGDB_ENABLED /D XPLANE_ENABLED /D DXF_ENABLED /D GEOCONCEPT_ENABLED /D GEORSS_ENABLED /D GTM_ENABLED /D PGDUMP_ENABLED /D OSM_ENABLED /D GPSBABEL_ENABLED /D SUA_ENABLED /D OPENAIR_ENABLED /D PDS_ENABLED /D HTF_ENABLED /D AERONAVFAA_ENABLED /D EDIGEO_ENABLED /D SVG_ENABLED /D IDRISI_ENABLED /D ARCGEN_ENABLED /D SEGUKOOA_ENABLED /D SEGY_ENABLED /D SXF_ENABLED /D SELAFIN_ENABLED /D JML_ENABLED /D TIGER_ENABLED /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\dll\x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\gdal-2.0.2\frmts\bsb\bsbdataset.cpp" "..\..\gdal-2.0.2\frmts\iso8211\ddffield.cpp" "..\..\gdal-2.0.2\frmts\iso8211\ddffielddefn.cpp" "..\..\gdal-2.0.2\frmts\iso8211\ddfmodule.cpp" "..\..\gdal-2.0.2\frmts\iso8211\ddfrecord.cpp" "..\..\gdal-2.0.2\frmts\iso8211\ddfsubfielddefn.cpp" "..\..\gdal-2.0.2\frmts\iso8211\ddfutils.cpp" "..\..\gdal-2.0.2\frmts\jpeg\jpgdataset.cpp" "..\..\gdal-2.0.2\frmts\jpeg\jpgdataset_12.cpp" "..\..\gdal-2.0.2\frmts\jpeg\vsidataio.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\pcidskdataset.cpp" "..\..\gdal-2.0.2\gcore\gdalallvalidmaskband.cpp" "..\..\gdal-2.0.2\gcore\gdalclientserver.cpp" "..\..\gdal-2.0.2\gcore\gdalcolortable.cpp" "..\..\gdal-2.0.2\gcore\gdaldataset.cpp" "..\..\gdal-2.0.2\gcore\gdaldefaultasync.cpp" "..\..\gdal-2.0.2\gcore\gdaldefaultoverviews.cpp" "..\..\gdal-2.0.2\gcore\gdaldllmain.cpp" "..\..\gdal-2.0.2\gcore\gdaldriver.cpp" "..\..\gdal-2.0.2\gcore\gdaldrivermanager.cpp" "..\..\gdal-2.0.2\gcore\gdalexif.cpp" "..\..\gdal-2.0.2\gcore\gdalgeorefpamdataset.cpp" "..\..\gdal-2.0.2\gcore\gdalgmlcoverage.cpp" "..\..\gdal-2.0.2\gcore\gdaljp2abstractdataset.cpp" "..\..\gdal-2.0.2\gcore\gdaljp2box.cpp" "..\..\gdal-2.0.2\gcore\gdaljp2metadata.cpp" "..\..\gdal-2.0.2\gcore\gdaljp2metadatagenerator.cpp" "..\..\gdal-2.0.2\gcore\gdaljp2structure.cpp" "..\..\gdal-2.0.2\gcore\gdalmajorobject.cpp" "..\..\gdal-2.0.2\gcore\gdalmultidomainmetadata.cpp" "..\..\gdal-2.0.2\gcore\gdalnodatamaskband.cpp" "..\..\gdal-2.0.2\gcore\gdalnodatavaluesmaskband.cpp" "..\..\gdal-2.0.2\gcore\gdalopeninfo.cpp" "..\..\gdal-2.0.2\gcore\gdaloverviewdataset.cpp" "..\..\gdal-2.0.2\gcore\gdalpamdataset.cpp" "..\..\gdal-2.0.2\gcore\gdalpamproxydb.cpp" "..\..\gdal-2.0.2\gcore\gdalpamrasterband.cpp" "..\..\gdal-2.0.2\gcore\gdalproxydataset.cpp" "..\..\gdal-2.0.2\gcore\gdalproxypool.cpp" "..\..\gdal-2.0.2\gcore\gdalrasterband.cpp" "..\..\gdal-2.0.2\gcore\gdalrasterblock.cpp" "..\..\gdal-2.0.2\gcore\gdalrescaledalphaband.cpp" "..\..\gdal-2.0.2\gcore\gdalvirtualmem.cpp" "..\..\gdal-2.0.2\gcore\gdal_mdreader.cpp" "..\..\gdal-2.0.2\gcore\gdal_misc.cpp" "..\..\gdal-2.0.2\gcore\gdal_rat.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_alos.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_digital_globe.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_eros.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_geo_eye.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_kompsat.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_landsat.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_orb_view.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_pleiades.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_rapid_eye.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_rdk1.cpp" "..\..\gdal-2.0.2\gcore\mdreader\reader_spot.cpp" "..\..\gdal-2.0.2\gcore\overview.cpp" "..\..\gdal-2.0.2\gcore\rasterio.cpp" "..\..\gdal-2.0.2\alg\contour.cpp" "..\..\gdal-2.0.2\alg\fpolygonize.cpp" "..\..\gdal-2.0.2\alg\gdalchecksum.cpp" "..\..\gdal-2.0.2\alg\gdalcutline.cpp" "..\..\gdal-2.0.2\alg\gdaldither.cpp" "..\..\gdal-2.0.2\alg\gdalgeoloc.cpp" "..\..\gdal-2.0.2\alg\gdalgrid.cpp" "..\..\gdal-2.0.2\alg\gdalgridavx.cpp" "..\..\gdal-2.0.2\alg\gdalgridsse.cpp" "..\..\gdal-2.0.2\alg\gdalmatching.cpp" "..\..\gdal-2.0.2\alg\gdalmediancut.cpp" "..\..\gdal-2.0.2\alg\gdalproximity.cpp" "..\..\gdal-2.0.2\alg\gdalrasterfpolygonenumerator.cpp" "..\..\gdal-2.0.2\alg\gdalrasterize.cpp" "..\..\gdal-2.0.2\alg\gdalrasterpolygonenumerator.cpp" "..\..\gdal-2.0.2\alg\gdalsievefilter.cpp" "..\..\gdal-2.0.2\alg\gdalsimplewarp.cpp" "..\..\gdal-2.0.2\alg\gdaltransformer.cpp" "..\..\gdal-2.0.2\alg\gdaltransformgeolocs.cpp" "..\..\gdal-2.0.2\alg\gdalwarper.cpp" "..\..\gdal-2.0.2\alg\gdalwarpkernel.cpp" "..\..\gdal-2.0.2\alg\gdalwarpoperation.cpp" "..\..\gdal-2.0.2\alg\gdal_octave.cpp" "..\..\gdal-2.0.2\alg\gdal_rpc.cpp" "..\..\gdal-2.0.2\alg\gdal_simplesurf.cpp" "..\..\gdal-2.0.2\alg\gdal_tps.cpp" "..\..\gdal-2.0.2\alg\llrasterize.cpp" "..\..\gdal-2.0.2\alg\polygonize.cpp" "..\..\gdal-2.0.2\alg\rasterfill.cpp" "..\..\gdal-2.0.2\alg\thinplatespline.cpp" "..\..\gdal-2.0.2\frmts\aaigrid\aaigriddataset.cpp" "..\..\gdal-2.0.2\frmts\adrg\adrgdataset.cpp" "..\..\gdal-2.0.2\frmts\adrg\srpdataset.cpp" "..\..\gdal-2.0.2\frmts\aigrid\aigdataset.cpp" "..\..\gdal-2.0.2\frmts\airsar\airsardataset.cpp" "..\..\gdal-2.0.2\frmts\blx\blxdataset.cpp" "..\..\gdal-2.0.2\frmts\bmp\bmpdataset.cpp" "..\..\gdal-2.0.2\frmts\ceos2\sar_ceosdataset.cpp" "..\..\gdal-2.0.2\frmts\ceos\ceosdataset.cpp" "..\..\gdal-2.0.2\frmts\coasp\coasp_dataset.cpp" "..\..\gdal-2.0.2\frmts\cosar\cosar_dataset.cpp" "..\..\gdal-2.0.2\frmts\ctg\ctgdataset.cpp" "..\..\gdal-2.0.2\frmts\dimap\dimapdataset.cpp" "..\..\gdal-2.0.2\frmts\dted\dteddataset.cpp" "..\..\gdal-2.0.2\frmts\e00grid\e00griddataset.cpp" "..\..\gdal-2.0.2\frmts\elas\elasdataset.cpp" "..\..\gdal-2.0.2\frmts\envisat\adsrange.cpp" "..\..\gdal-2.0.2\frmts\envisat\envisatdataset.cpp" "..\..\gdal-2.0.2\frmts\envisat\unwrapgcps.cpp" "..\..\gdal-2.0.2\frmts\ers\ersdataset.cpp" "..\..\gdal-2.0.2\frmts\ers\ershdrnode.cpp" "..\..\gdal-2.0.2\frmts\fit\fit.cpp" "..\..\gdal-2.0.2\frmts\fit\fitdataset.cpp" "..\..\gdal-2.0.2\frmts\gdalallregister.cpp" "..\..\gdal-2.0.2\frmts\gff\gff_dataset.cpp" "..\..\gdal-2.0.2\frmts\gif\biggifdataset.cpp" "..\..\gdal-2.0.2\frmts\gif\gifabstractdataset.cpp" "..\..\gdal-2.0.2\frmts\gif\gifdataset.cpp" "..\..\gdal-2.0.2\frmts\gsg\gs7bgdataset.cpp" "..\..\gdal-2.0.2\frmts\gsg\gsagdataset.cpp" "..\..\gdal-2.0.2\frmts\gsg\gsbgdataset.cpp" "..\..\gdal-2.0.2\frmts\gtiff\geotiff.cpp" "..\..\gdal-2.0.2\frmts\gtiff\gt_citation.cpp" "..\..\gdal-2.0.2\frmts\gtiff\gt_jpeg_copy.cpp" "..\..\gdal-2.0.2\frmts\gtiff\gt_overview.cpp" "..\..\gdal-2.0.2\frmts\gtiff\gt_wkt_srs.cpp" "..\..\gdal-2.0.2\frmts\gtiff\tifvsi.cpp" "..\..\gdal-2.0.2\frmts\gxf\gxfdataset.cpp" "..\..\gdal-2.0.2\frmts\hf2\hf2dataset.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfaband.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfacompress.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfadataset.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfadictionary.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfaentry.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfafield.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfaopen.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfatype.cpp" "..\..\gdal-2.0.2\frmts\hfa\hfa_overviews.cpp" "..\..\gdal-2.0.2\frmts\idrisi\IdrisiDataset.cpp" "..\..\gdal-2.0.2\frmts\ilwis\ilwiscoordinatesystem.cpp" "..\..\gdal-2.0.2\frmts\ilwis\ilwisdataset.cpp" "..\..\gdal-2.0.2\frmts\ingr\IngrTypes.cpp" "..\..\gdal-2.0.2\frmts\ingr\IntergraphBand.cpp" "..\..\gdal-2.0.2\frmts\ingr\IntergraphDataset.cpp" "..\..\gdal-2.0.2\frmts\ingr\JpegHelper.cpp" "..\..\gdal-2.0.2\frmts\iris\irisdataset.cpp" "..\..\gdal-2.0.2\frmts\jaxapalsar\jaxapalsardataset.cpp" "..\..\gdal-2.0.2\frmts\jdem\jdemdataset.cpp" "..\..\gdal-2.0.2\frmts\kmlsuperoverlay\kmlsuperoverlaydataset.cpp" "..\..\gdal-2.0.2\frmts\l1b\l1bdataset.cpp" "..\..\gdal-2.0.2\frmts\leveller\levellerdataset.cpp" "..\..\gdal-2.0.2\frmts\map\mapdataset.cpp" "..\..\gdal-2.0.2\frmts\mem\memdataset.cpp" "..\..\gdal-2.0.2\frmts\msgn\msgndataset.cpp" "..\..\gdal-2.0.2\frmts\msgn\msg_basic_types.cpp" "..\..\gdal-2.0.2\frmts\msgn\msg_reader_core.cpp" "..\..\gdal-2.0.2\frmts\ngsgeoid\ngsgeoiddataset.cpp" "..\..\gdal-2.0.2\frmts\nitf\ecrgtocdataset.cpp" "..\..\gdal-2.0.2\frmts\nitf\nitfaridpcm.cpp" "..\..\gdal-2.0.2\frmts\nitf\nitfbilevel.cpp" "..\..\gdal-2.0.2\frmts\nitf\nitfdataset.cpp" "..\..\gdal-2.0.2\frmts\nitf\nitfrasterband.cpp" "..\..\gdal-2.0.2\frmts\nitf\nitfwritejpeg.cpp" "..\..\gdal-2.0.2\frmts\nitf\nitfwritejpeg_12.cpp" "..\..\gdal-2.0.2\frmts\nitf\nitf_gcprpc.cpp" "..\..\gdal-2.0.2\frmts\nitf\rpftocdataset.cpp" "..\..\gdal-2.0.2\frmts\nitf\rpftocfile.cpp" "..\..\gdal-2.0.2\frmts\northwood\grcdataset.cpp" "..\..\gdal-2.0.2\frmts\northwood\grddataset.cpp" "..\..\gdal-2.0.2\frmts\northwood\northwood.cpp" "..\..\gdal-2.0.2\frmts\ozi\ozidataset.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\gdal_edb.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\ogrpcidsklayer.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\pcidsktiledrasterband.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\channel\cbandinterleavedchannel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\channel\cexternalchannel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\channel\cpcidskchannel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\channel\cpixelinterleavedchannel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\channel\ctiledchannel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\clinksegment.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\cpcidskfile.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\edb_pcidsk.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\libjpeg_io.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\metadataset_p.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\pcidskbuffer.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\pcidskcreate.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\pcidskexception.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\pcidskinterfaces.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\pcidskopen.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\pcidsk_pubutils.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\pcidsk_utils.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\core\sysvirtualfile.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\port\io_win32.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\port\win32_mutex.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskads40model.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskapmodel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskbinarysegment.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskbitmap.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskephemerissegment.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskgcp2segment.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskgeoref.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskpct.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskrpcmodel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidsksegment.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidsktoutinmodel.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskvectorsegment.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidskvectorsegment_consistencycheck.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidsk_array.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\cpcidsk_tex.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\metadatasegment_p.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\sysblockmap.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\vecsegdataindex.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\sdk\segment\vecsegheader.cpp" "..\..\gdal-2.0.2\frmts\pcidsk\vsi_pcidsk_io.cpp" "..\..\gdal-2.0.2\frmts\pcraster\pcrasterdataset.cpp" "..\..\gdal-2.0.2\frmts\pcraster\pcrastermisc.cpp" "..\..\gdal-2.0.2\frmts\pcraster\pcrasterrasterband.cpp" "..\..\gdal-2.0.2\frmts\pcraster\pcrasterutil.cpp" "..\..\gdal-2.0.2\frmts\pds\isis2dataset.cpp" "..\..\gdal-2.0.2\frmts\pds\isis3dataset.cpp" "..\..\gdal-2.0.2\frmts\pds\nasakeywordhandler.cpp" "..\..\gdal-2.0.2\frmts\pds\pdsdataset.cpp" "..\..\gdal-2.0.2\frmts\pds\vicardataset.cpp" "..\..\gdal-2.0.2\frmts\pds\vicarkeywordhandler.cpp" "..\..\gdal-2.0.2\frmts\png\pngdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\ace2dataset.cpp" "..\..\gdal-2.0.2\frmts\raw\atlsci_spheroid.cpp" "..\..\gdal-2.0.2\frmts\raw\btdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\cpgdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\ctable2dataset.cpp" "..\..\gdal-2.0.2\frmts\raw\dipxdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\doq1dataset.cpp" "..\..\gdal-2.0.2\frmts\raw\doq2dataset.cpp" "..\..\gdal-2.0.2\frmts\raw\ehdrdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\eirdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\envidataset.cpp" "..\..\gdal-2.0.2\frmts\raw\fastdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\fujibasdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\genbindataset.cpp" "..\..\gdal-2.0.2\frmts\raw\gscdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\gtxdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\hkvdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\idadataset.cpp" "..\..\gdal-2.0.2\frmts\raw\krodataset.cpp" "..\..\gdal-2.0.2\frmts\raw\landataset.cpp" "..\..\gdal-2.0.2\frmts\raw\lcpdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\loslasdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\mffdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\ndfdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\ntv2dataset.cpp" "..\..\gdal-2.0.2\frmts\raw\pauxdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\pnmdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\rawdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\roipacdataset.cpp" "..\..\gdal-2.0.2\frmts\raw\snodasdataset.cpp" "..\..\gdal-2.0.2\frmts\rik\rikdataset.cpp" "..\..\gdal-2.0.2\frmts\rmf\rmfdataset.cpp" "..\..\gdal-2.0.2\frmts\rmf\rmfdem.cpp" "..\..\gdal-2.0.2\frmts\rmf\rmflzw.cpp" "..\..\gdal-2.0.2\frmts\rs2\rs2dataset.cpp" "..\..\gdal-2.0.2\frmts\r\rcreatecopy.cpp" "..\..\gdal-2.0.2\frmts\r\rdataset.cpp" "..\..\gdal-2.0.2\frmts\saga\sagadataset.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtsattrreader.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtscatd.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtsdataset.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtsindexedreader.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtsiref.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtslib.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtslinereader.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtspointreader.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtspolygonreader.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtsrasterreader.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtstransfer.cpp" "..\..\gdal-2.0.2\frmts\sdts\sdtsxref.cpp" "..\..\gdal-2.0.2\frmts\sgi\sgidataset.cpp" "..\..\gdal-2.0.2\frmts\srtmhgt\srtmhgtdataset.cpp" "..\..\gdal-2.0.2\frmts\terragen\terragendataset.cpp" "..\..\gdal-2.0.2\frmts\til\tildataset.cpp" "..\..\gdal-2.0.2\frmts\tsx\tsxdataset.cpp" "..\..\gdal-2.0.2\frmts\usgsdem\usgsdemdataset.cpp" "..\..\gdal-2.0.2\frmts\usgsdem\usgsdem_create.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtdataset.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtderivedrasterband.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtdriver.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtfilters.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtrasterband.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtrawrasterband.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtsourcedrasterband.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtsources.cpp" "..\..\gdal-2.0.2\frmts\vrt\vrtwarped.cpp" "..\..\gdal-2.0.2\frmts\xpm\xpmdataset.cpp" "..\..\gdal-2.0.2\frmts\xyz\xyzdataset.cpp" "..\..\gdal-2.0.2\frmts\zmap\zmapdataset.cpp" "..\..\gdal-2.0.2\ogr\gml2ogrgeometry.cpp" "..\..\gdal-2.0.2\ogr\ogr2gmlgeometry.cpp" "..\..\gdal-2.0.2\ogr\ograpispy.cpp" "..\..\gdal-2.0.2\ogr\ograssemblepolygon.cpp" "..\..\gdal-2.0.2\ogr\ogrcircularstring.cpp" "..\..\gdal-2.0.2\ogr\ogrcompoundcurve.cpp" "..\..\gdal-2.0.2\ogr\ogrct.cpp" "..\..\gdal-2.0.2\ogr\ogrcurve.cpp" "..\..\gdal-2.0.2\ogr\ogrcurvecollection.cpp" "..\..\gdal-2.0.2\ogr\ogrcurvepolygon.cpp" "..\..\gdal-2.0.2\ogr\ogrfeature.cpp" "..\..\gdal-2.0.2\ogr\ogrfeaturedefn.cpp" "..\..\gdal-2.0.2\ogr\ogrfeaturequery.cpp" "..\..\gdal-2.0.2\ogr\ogrfeaturestyle.cpp" "..\..\gdal-2.0.2\ogr\ogrfielddefn.cpp" "..\..\gdal-2.0.2\ogr\ogrgeomediageometry.cpp" "..\..\gdal-2.0.2\ogr\ogrgeometry.cpp" "..\..\gdal-2.0.2\ogr\ogrgeometrycollection.cpp" "..\..\gdal-2.0.2\ogr\ogrgeometryfactory.cpp" "..\..\gdal-2.0.2\ogr\ogrgeomfielddefn.cpp" "..\..\gdal-2.0.2\ogr\ogrlinearring.cpp" "..\..\gdal-2.0.2\ogr\ogrlinestring.cpp" "..\..\gdal-2.0.2\ogr\ogrmulticurve.cpp" "..\..\gdal-2.0.2\ogr\ogrmultilinestring.cpp" "..\..\gdal-2.0.2\ogr\ogrmultipoint.cpp" "..\..\gdal-2.0.2\ogr\ogrmultipolygon.cpp" "..\..\gdal-2.0.2\ogr\ogrmultisurface.cpp" "..\..\gdal-2.0.2\ogr\ogrpgeogeometry.cpp" "..\..\gdal-2.0.2\ogr\ogrpoint.cpp" "..\..\gdal-2.0.2\ogr\ogrpolygon.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaalayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\arcgen\ograrcgendatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\arcgen\ograrcgendriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\arcgen\ograrcgenlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravcbindatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravcbindriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravcbinlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravcdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravce00datasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravce00driver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravce00layer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\avc\ogravclayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\bna\ogrbnadatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\bna\ogrbnadriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\bna\ogrbnalayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\bna\ogrbnaparser.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\csv\ogrcsvdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\csv\ogrcsvdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\csv\ogrcsvlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\dgnfloat.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\dgnhelp.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\dgnopen.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\dgnread.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\dgnstroke.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\dgnwrite.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\ogrdgndatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\ogrdgndriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dgn\ogrdgnlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\intronurbs.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxfblockslayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxfblockswriterlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxfdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxfdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxflayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxfreader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxfwriterds.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxfwriterlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxf_blockmap.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxf_dimension.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxf_hatch.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogrdxf_polyline_smooth.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\dxf\ogr_autocad_services.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\edigeo\ogredigeodatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\edigeo\ogredigeodriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\edigeo\ogredigeolayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogremulatedtransaction.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrlayerdecorator.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrlayerpool.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrmutexeddatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrmutexedlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrregisterall.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrsfdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrsfdriverregistrar.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrunionlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogrwarpedlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogr_attrind.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogr_gensql.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\generic\ogr_miattrind.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogresrijsonreader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrgeojsondatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrgeojsondriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrgeojsonlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrgeojsonreader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrgeojsonutils.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrgeojsonwritelayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrgeojsonwriter.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\geojson\ogrtopojsonreader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\georss\ogrgeorssdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\georss\ogrgeorssdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\georss\ogrgeorsslayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gfstemplate.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlfeature.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlfeatureclass.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlhandler.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlpropertydefn.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlreader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlreadstate.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlregistry.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\gmlutils.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\hugefileresolver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\ogrgmldatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\ogrgmldriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\ogrgmllayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\parsexsd.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\resolvexlinks.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gml\trstring.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gmt\ogrgmtdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gmt\ogrgmtdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gmt\ogrgmtlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabelwritedatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gpx\ogrgpxdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gpx\ogrgpxdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gpx\ogrgpxlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gtm\gtm.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gtm\gtmtracklayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gtm\gtmwaypointlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gtm\ogrgtmdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gtm\ogrgtmdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\gtm\ogrgtmlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\htf\ogrhtfdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\htf\ogrhtfdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\htf\ogrhtflayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\idrisi\ogridrisidatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\idrisi\ogridrisidriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\idrisi\ogridrisilayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\jml\ogrjmldataset.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\jml\ogrjmllayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\jml\ogrjmlwriterlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\kml\kml.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\kml\kmlnode.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\kml\kmlvector.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\kml\ogr2kmlgeometry.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\kml\ogrkmldatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\kml\ogrkmldriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\kml\ogrkmllayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mem\ogrmemdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mem\ogrmemdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mem\ogrmemlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_bounds.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_coordsys.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_datfile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_feature.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_feature_mif.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_geometry.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_idfile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_imapinfofile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_indfile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_mapcoordblock.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_mapfile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_mapheaderblock.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_mapindexblock.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_mapobjectblock.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_maptoolblock.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_middatafile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_miffile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_ogr_datasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_ogr_driver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_rawbinblock.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_spatialref.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_tabfile.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_tabseamless.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_tabview.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_tooldef.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\mitab\mitab_utils.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ntffilereader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ntfrecord.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ntfstroke.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ntf_codelist.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ntf_estlayers.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ntf_generic.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ntf_raster.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ogrntfdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ogrntfdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ogrntffeatureclasslayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\ntf\ogrntflayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openair\ogropenairdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openair\ogropenairdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openair\ogropenairlabellayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openair\ogropenairlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openfilegdb\filegdbindex.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openfilegdb\filegdbtable.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdblayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\osm\ogrosmdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\osm\ogrosmdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\osm\ogrosmlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\osm\osm_parser.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\pds\ogrpdsdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\pds\ogrpdsdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\pds\ogrpdslayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\pgdump\ogrpgdumpdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\pgdump\ogrpgdumpdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\pgdump\ogrpgdumplayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\rec\ll_recio.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\rec\ogrrecdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\rec\ogrrecdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\rec\ogrreclayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\ddfrecordindex.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\ogrs57datasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\ogrs57driver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\ogrs57layer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\s57classregistrar.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\s57featuredefns.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\s57filecollector.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\s57reader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\s57\s57writer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sdts\ogrsdtsdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sdts\ogrsdtsdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sdts\ogrsdtslayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\segukooa\ogrsegukooadatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\segukooa\ogrsegukooadriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\segukooa\ogrsegukooalayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\segy\ogrsegydatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\segy\ogrsegydriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\segy\ogrsegylayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\selafin\io_selafin.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\selafin\ogrselafindatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\selafin\ogrselafindriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\selafin\ogrselafinlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\ogrshapedatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\ogrshapedriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\ogrshapelayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\shape\shape2ogr.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqlitedatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqlitedriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqliteexecutesql.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqlitelayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqliteselectlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqlitesinglefeaturelayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqlitetablelayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqlitevfs.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqliteviewlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sqlite\ogrsqlitevirtualogr.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sua\ogrsuadatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sua\ogrsuadriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sua\ogrsualayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\svg\ogrsvgdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\svg\ogrsvgdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\svg\ogrsvglayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sxf\ogrsxfdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sxf\ogrsxfdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\sxf\ogrsxflayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\ogrtigerdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\ogrtigerdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\ogrtigerlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigeraltname.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerarealandmarks.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigercompletechain.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerentitynames.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerfeatureids.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerfilebase.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigeridhistory.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerkeyfeatures.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerlandmarks.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigeroverunder.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerpip.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerpoint.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerpolychainlink.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerpolygon.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerpolygoncorrections.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerpolygoneconomic.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerspatialmetadata.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigertlidrange.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerzerocellid.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerzipcodes.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\tiger\tigerzipplus4.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\vrt\ogrvrtdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\vrt\ogrvrtdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\vrt\ogrvrtlayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\wasp\ogrwaspdatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\wasp\ogrwaspdriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\wasp\ogrwasplayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogrxplanedatasource.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogrxplanedriver.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogrxplanelayer.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogr_xplane_apt_reader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogr_xplane_awy_reader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogr_xplane_fix_reader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogr_xplane_geo_utils.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogr_xplane_nav_reader.cpp" "..\..\gdal-2.0.2\ogr\ogrsf_frmts\xplane\ogr_xplane_reader.cpp" "..\..\gdal-2.0.2\ogr\ogrspatialreference.cpp" "..\..\gdal-2.0.2\ogr\ogrsurface.cpp" "..\..\gdal-2.0.2\ogr\ogrutils.cpp" "..\..\gdal-2.0.2\ogr\ogr_api.cpp" "..\..\gdal-2.0.2\ogr\ogr_expat.cpp" "..\..\gdal-2.0.2\ogr\ogr_fromepsg.cpp" "..\..\gdal-2.0.2\ogr\ogr_geocoding.cpp" "..\..\gdal-2.0.2\ogr\ogr_opt.cpp" "..\..\gdal-2.0.2\ogr\ogr_srsnode.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_dict.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_erm.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_esri.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_ozi.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_panorama.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_pci.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_proj4.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_usgs.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_validate.cpp" "..\..\gdal-2.0.2\ogr\ogr_srs_xml.cpp" "..\..\gdal-2.0.2\ogr\swq.cpp" "..\..\gdal-2.0.2\ogr\swq_expr_node.cpp" "..\..\gdal-2.0.2\ogr\swq_op_general.cpp" "..\..\gdal-2.0.2\ogr\swq_op_registrar.cpp" "..\..\gdal-2.0.2\ogr\swq_parser.cpp" "..\..\gdal-2.0.2\ogr\swq_select.cpp" "..\..\gdal-2.0.2\port\cplgetsymbol.cpp" "..\..\gdal-2.0.2\port\cplkeywordparser.cpp" "..\..\gdal-2.0.2\port\cplstring.cpp" "..\..\gdal-2.0.2\port\cplstringlist.cpp" "..\..\gdal-2.0.2\port\cpl_atomic_ops.cpp" "..\..\gdal-2.0.2\port\cpl_base64.cpp" "..\..\gdal-2.0.2\port\cpl_conv.cpp" "..\..\gdal-2.0.2\port\cpl_csv.cpp" "..\..\gdal-2.0.2\port\cpl_error.cpp" "..\..\gdal-2.0.2\port\cpl_findfile.cpp" "..\..\gdal-2.0.2\port\cpl_getexecpath.cpp" "..\..\gdal-2.0.2\port\cpl_google_oauth2.cpp" "..\..\gdal-2.0.2\port\cpl_hash_set.cpp" "..\..\gdal-2.0.2\port\cpl_http.cpp" "..\..\gdal-2.0.2\port\cpl_list.cpp" "..\..\gdal-2.0.2\port\cpl_minixml.cpp" "..\..\gdal-2.0.2\port\cpl_minizip_ioapi.cpp" "..\..\gdal-2.0.2\port\cpl_minizip_unzip.cpp" "..\..\gdal-2.0.2\port\cpl_minizip_zip.cpp" "..\..\gdal-2.0.2\port\cpl_multiproc.cpp" "..\..\gdal-2.0.2\port\cpl_path.cpp" "..\..\gdal-2.0.2\port\cpl_progress.cpp" "..\..\gdal-2.0.2\port\cpl_quad_tree.cpp" "..\..\gdal-2.0.2\port\cpl_recode.cpp" "..\..\gdal-2.0.2\port\cpl_recode_iconv.cpp" "..\..\gdal-2.0.2\port\cpl_recode_stub.cpp" "..\..\gdal-2.0.2\port\cpl_spawn.cpp" "..\..\gdal-2.0.2\port\cpl_string.cpp" "..\..\gdal-2.0.2\port\cpl_strtod.cpp" "..\..\gdal-2.0.2\port\cpl_time.cpp" "..\..\gdal-2.0.2\port\cpl_virtualmem.cpp" "..\..\gdal-2.0.2\port\cpl_vsil.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_abstract_archive.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_buffered_reader.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_cache.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_curl.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_curl_streaming.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_gzip.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_sparsefile.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_stdin.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_stdout.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_subfile.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_tar.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_unix_stdio_64.cpp" "..\..\gdal-2.0.2\port\cpl_vsil_win32.cpp" "..\..\gdal-2.0.2\port\cpl_vsisimple.cpp" "..\..\gdal-2.0.2\port\cpl_vsi_mem.cpp" "..\..\gdal-2.0.2\port\cpl_xml_validate.cpp"
@@ -16895,4 +17473,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:08:50.09
+Time Elapsed 00:09:24.73

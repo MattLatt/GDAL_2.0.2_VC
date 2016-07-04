@@ -15,6 +15,10 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.0.2 library (htt
 		this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace dynamically linked to GDAL 2.0.2
 		
+		+ test_dynamic_ogr2ogr workspace:
+		this is the ogr2ogr code provided by gdal (in the app folder of the source package) in a 
+		"windows console" workspace dynamically linked to GDAL 2.0.2
+			
 		+ test_static_libgdal-2.0.2 workspace:
 		this is a simple console program that dump all the supported drivers (GDAL/OGR) with theire 
 		capabilities (i.e. Read/Write)
@@ -23,7 +27,6 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.0.2 library (htt
 		this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace statically linked to GDAL 2.0.2
 	
-	
 	* The 3rdpart folder contain the library not provided internally by GDAL and necessary for some format I choosed to add (OSM,...).
 	For now it contain the libexpat (linlked dynamically) and libsqlite3.12 amalgamation included in the GDAL workspaces.
 
@@ -31,23 +34,25 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.0.2 library (htt
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.0.2.lib (more than 650 MB),
 so you will have to rebuild the static lib version.
 	
+## 2016-07-04: Warning this is a work in progress	
 
-## 2016-06-29: Warning this is a work in progress
+    - Added lib proj (4.9.2) dll workspace for both architecture in the 3rdpart folder
+	
+	- Added a new test project "test_dynamic_ogr2ogr"
+
+What still need to be done :
+
+    - add ECW driver
+
+	- add V2.1.0 new drivers
+   
+    - test if it's possible to use Unicode charset (instead of Multi-Byte)
+
+## 2016-06-29:
 
     - Added x64 version of all the workspaces (dll, lib and tests).
 	I've compiled the 3rd part library libexpat for x64 architecture excluding in UNICODE mode for now
 
-	
-What need to be done :
-
-    - adding Proj.4 lib
-    
-    - adding ECW driver
-    
-    - building libexpat for x64 architecture to test x64 version of all the workspaces
-    
-    - test if it's possible to use Unicode charset (instead of Multi-Byte)
-   	
 	
 ## 2016-06-28: 
 What is compiling :
