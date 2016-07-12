@@ -4669,6 +4669,18 @@
     <ClCompile Include="..\..\3rdpart\sqlite-3.12\sqlite-3.12-amalgamation\sqlite3.c">
       <Filter>Source Files\3rdpart\libsqlite3</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.2\frmts\ecw\ecwasyncreader.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.2\frmts\ecw\ecwcreatecopy.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.2\frmts\ecw\ecwdataset.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.2\frmts\ecw\jp2userbox.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\gdal-2.0.2\gcore\Version.rc">

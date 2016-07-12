@@ -1,4 +1,4 @@
-﻿Build started 04/07/2016 15:33:35.
+﻿Build started 12/07/2016 09:33:11.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\test_static_libgdal-2.0.2.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -32,7 +32,7 @@
                      _Ty=GDALDriver *
                  ]
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x64/Release /LIBPATH:"../../3rdpart/expat-2.1.0/x64/bin/Release" wsock32.lib ws2_32.lib "gdal-2.0.2.lib" libexpat.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\main.obj"
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x64/Release /LIBPATH:"../../3rdpart/expat-2.1.0/x64/bin/Release" /LIBPATH:"../../3rdpart/ecw-4.3/lib/vc10/x64/" wsock32.lib ws2_32.lib "gdal-2.0.2.lib" libexpat.lib NCScnet4.lib NCSEcw4_RO.lib NCSUtil4.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\main.obj"
             Creating library K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\libgdal-2.0.2\test_static_libgdal-2.0.2\x64\Release\test_static_gdal-2.0.2.exp
          Generating code
          Finished generating code
@@ -50,4 +50,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:01:11.23
+Time Elapsed 00:01:03.99
