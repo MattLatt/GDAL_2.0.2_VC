@@ -1,4 +1,4 @@
-﻿Build started 20/07/2016 20:17:24.
+﻿Build started 03/08/2016 06:40:09.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\test_dynamic_ogr2ogr.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -13,15 +13,11 @@
          test_dynamic_ogr2ogr.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.exe.intermediate.manifest"
-       PostBuildEvent:
-         copy K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.exe K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\binaries\dll\x86\Release\test_dynamic_ogr2ogr.exe
-         :VCEnd
-                 1 fichier(s) copié(s).
-       FinalizeBuildStatus:
-         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.unsuccessfulbuild".
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.lastbuildstate".
-     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\test_dynamic_ogr2ogr.vcxproj" (build target(s)).
+         
+     1>mt.exe : general error c101008d: Failed to write the updated manifest to the resource of file "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\x86\Release\test_dynamic_ogr2ogr.exe". Acchs refusi.
+         
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\test_dynamic_ogr2ogr\test_dynamic_ogr2ogr.vcxproj" (build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:02.62
+Time Elapsed 00:00:02.09

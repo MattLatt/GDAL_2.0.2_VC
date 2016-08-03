@@ -757,6 +757,12 @@
     <Filter Include="Header Files\ogr\ogrsf_frmts\xlsx">
       <UniqueIdentifier>{ec627310-ccd0-4bc6-b5f4-9edd4324ec0e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\frmts\hdf5">
+      <UniqueIdentifier>{eb6d175a-9030-415c-8681-0c14dd67242a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\hdf5">
+      <UniqueIdentifier>{4245d985-21fb-40f4-882f-b5f93a77ae2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -1990,6 +1996,12 @@
     </ClInclude>
     <ClInclude Include="..\..\gdal-2.0.3\ogr\ogrsf_frmts\xlsx\ogr_xlsx.h">
       <Filter>Header Files\ogr\ogrsf_frmts\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.0.3\frmts\hdf5\gh5_convenience.h">
+      <Filter>Header Files\frmts\hdf5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.0.3\frmts\hdf5\hdf5dataset.h">
+      <Filter>Header Files\frmts\hdf5</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -4926,6 +4938,21 @@
     </ClCompile>
     <ClCompile Include="..\..\gdal-2.0.3\ogr\ogrsf_frmts\xlsx\ogrxlsxdriver.cpp">
       <Filter>Source Files\ogr\ogrsf_frmts\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.3\frmts\hdf5\bagdataset.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.3\frmts\hdf5\gh5_convenience.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.3\frmts\hdf5\hdf5dataset.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.3\frmts\hdf5\hdf5imagedataset.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.0.3\frmts\hdf5\iso19115_srs.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

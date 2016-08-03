@@ -1,4 +1,4 @@
-﻿Build started 20/07/2016 21:31:55.
+﻿Build started 02/08/2016 23:24:10.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\dll\gdal-2.0.3_dll.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "K:\Components\LibraryV2\GDAL\GDAL_2.0.x_VC_NoIntFilesCleanUp\libgdal-2.0.3\dll\x86\Debug\gdal-2.0.3_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -25,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.45
+Time Elapsed 00:00:02.24

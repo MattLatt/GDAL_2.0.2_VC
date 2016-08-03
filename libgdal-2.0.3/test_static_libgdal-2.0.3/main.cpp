@@ -15,7 +15,6 @@ int main(int argc, char* argv[])
 	std::cout << "    ..   Date    : " << GDAL_RELEASE_DATE <<  std::endl <<std::endl;
 
     GDALAllRegister();
-	OGRRegisterAll();
 
 	std::cout << "GDAL Drivers: Rast. | Vect. | Read | Wri. | Driver Code | Driver Desc." << std::endl;
 	for (int i = 0 ; i < GDALGetDriverCount() ; ++i)
