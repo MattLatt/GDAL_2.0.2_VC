@@ -33,6 +33,9 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.0.x library (htt
 
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.0.3.lib (more than 650 MB),
 so you will have to rebuild the static lib version.
+## 2016-08-03:
+
+	- Compiled with the HDF5 drivers (dynamically linked to the v1.8.17 of the HDF5 lib, binaries provided in the 3rdpart folder) 
 
 ## 2016-07-21: 	
 
